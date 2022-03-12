@@ -33,3 +33,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.heading{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.box{
+  height:4rem;
+  width: 4rem;
+  border: 1px solid;
+}
+
+.container{
+  margin: 1.25rem;
+
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
