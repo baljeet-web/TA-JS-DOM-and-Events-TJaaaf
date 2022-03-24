@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validation 👇</title>
+  </head>
+  <body>
+   <form class="form-for-asking-details">
+
+    <label for="user-name">Please Enter your  User Name</label>
+    <input type="text" minlength="4" placeholder="User Name" name="user-name" class="user-name" required>
+    <small></small>
+
+    <label for="E-mail">Please Enter your Email</label>
+    <input type="email" placeholder="Email Address" name="E-mail" class="email" required>
+    <small></small>
+
+    <label for="name">Please Enter your Name</label>
+    <input type="text" minlength="2" placeholder="Name" name="name" class="name" required>
+    <small></small>
+
+    <label for="number">Please Enter your Number</label>
+    <input type="number" placeholder="Number" name="number" class="number" required>
+    <small></small>
+
+    <label for="password">Please Enter the Password</label>
+    <input type="password" minlength="7" placeholder="Password" name="password" class="password" required>
+    <small></small>
+
+    <label for="confirm-password">Please Enter the Password</label>
+    <input type="password" minlength="7" placeholder="Confirm-Password" name="confirm-password" class="confirm-password" required>
+    <small></small>
+    
+   </form>
+   
+  <script src="./script.js"></script>
+  </body>
+</html>
